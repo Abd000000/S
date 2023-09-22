@@ -3,5 +3,28 @@ body {
 }
 
 .container {
+    margin-top: 23%;
+    margin-left: 20px;
+    font-size: 40px;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+span {
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+    animation: fadeIn infinite alternate ease 3s;
+    
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
